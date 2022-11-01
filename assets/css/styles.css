@@ -1,2 +1,65 @@
-
 /* css */
+html {
+  font-size: 16px;
+  cursor: default;
+}
+
+.primary-background-color {
+  background-color: #5559a8;
+}
+
+#header {
+  font-family: "Saira Stencil One", cursive;
+  color: white;
+  margin-top: 6.5625vw;
+  font-size: 4.5vw;
+}
+
+.secondary-background-color {
+  background-color: #8686da;
+}
+
+.task-button {
+  background-color: #55a8a4;
+  height: 80px;
+  width: 170px;
+  border-radius: 30px;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.task-button > p {
+  padding-top: 10px;
+}
+
+.task-button:hover{
+  box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 2.5rem;
+}
+
+.center-text {
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media screen and (max-width:1200px) {
+  .task-button {
+    background-color: #55a8a4;
+    height: 80px;
+    width: 150px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+}
+
+/* #about-box {
+  height: ;
+} */
