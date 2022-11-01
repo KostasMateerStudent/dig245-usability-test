@@ -2,6 +2,7 @@
 html {
   font-size: 16px;
   cursor: default;
+  scroll-behavior: smooth;
 }
 
 .primary-background-color {
@@ -25,11 +26,10 @@ html {
 
 .task-button {
   background-color: #55a8a4;
-  height: 80px;
-  width: 170px;
+  height: 5vw;
+  width: 10vw;
   border-radius: 30px;
   box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
   margin-bottom: 20px;
 }
 
@@ -37,11 +37,15 @@ html {
   padding-top: 10px;
 }
 
-.task-button:hover{
+.nav .task-button {
+  cursor: pointer;
+}
+
+.nav .task-button:hover{
   box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.2);
 }
 
-p {
+p, a {
   color: white;
   font-family: "Inter", sans-serif;
   font-size: 2.5rem;
@@ -65,7 +69,6 @@ p {
 }
 
 #about-box {
-  height: 20vw;
   box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
   background-color: #8686da;
@@ -74,11 +77,48 @@ p {
 #about-title {
   font-family: 'Bebas Neue', cursive;
   color: white;
-  font-size: 4vw;
+  font-size: 2.4vw;
 }
 
 .page-break {
   background-color: #223078;
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
   height: 40px;
+}
+
+.title-box {
+  height: 5vw;
+  background-color: #8686da;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.task-title {
+  font-size: 3vw;
+}
+
+.data-box {
+  background-color: #223078;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.data-explanation-box {
+  background-color: #8686da;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.data-explanation-box > p {
+  font-size: 1vw;
+  margin-left: 40px;
+}
+
+.data-box > p {
+  font-size: 1vw;
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
 }
