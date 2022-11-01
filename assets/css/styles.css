@@ -19,6 +19,10 @@ html {
   background-color: #8686da;
 }
 
+.nav-bar-color {
+  background-color: #223078;
+}
+
 .task-button {
   background-color: #55a8a4;
   height: 80px;
@@ -60,6 +64,21 @@ p {
   }
 }
 
-/* #about-box {
-  height: ;
-} */
+#about-box {
+  height: 20vw;
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  background-color: #8686da;
+}
+
+#about-title {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: 4vw;
+}
+
+.page-break {
+  background-color: #223078;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  height: 40px;
+}
